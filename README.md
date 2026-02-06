@@ -71,20 +71,33 @@ ML Models (KNN + ANN)
         ↓
 Risk Prediction + Probability Output
 
-🛠️ TechStack
+🛠️ Tech Stack
 Frontend
+
 HTML
+
 CSS
+
 JavaScript (Fetch API)
+
 Backend
+
 Python
+
 Flask
+
 Flask-CORS
+
 Machine Learning
+
 Scikit-learn
+
 TensorFlow / Keras
+
 NumPy
+
 Joblib
+
 📁 Project Structure
 codecure_breast_cancer_ai/
 │
@@ -109,18 +122,29 @@ codecure_breast_cancer_ai/
 🚀 How to Run the Project
 1️⃣ Install Dependencies
 pip install -r backend/requirements.txt
+
 2️⃣ Train and Save Models
 python model/train_knn.py
 python model/train_ann.py
+
 3️⃣ Start Backend Server
 cd backend
 python app.py
+
+
 Backend will run at:
+
 http://127.0.0.1:5000
+
 4️⃣ Launch Frontend
+
 Open:
+
 frontend/index.html
+
+
 in a web browser.
+
 🧪 Sample Test Inputs
 🟢 Benign Case (Low Risk)
 12.45,15.7,82.6,477.1,0.089,0.078,0.045,0.029,0.165,0.058,
@@ -128,22 +152,36 @@ in a web browser.
 0.015,0.018,0.009,0.016,0.002,
 13.8,18.2,90.1,600.3,0.11,
 0.17,0.19,0.075,0.22,0.07
+
 🔴 Malignant Case (High Risk)
 19.3,25.4,130.0,1200.0,0.11,0.25,0.30,0.16,0.22,0.075,
 1.2,2.5,8.0,120.0,0.012,
 0.05,0.08,0.04,0.04,0.01,
 22.5,30.1,150.0,1800.0,0.16,
 0.45,0.55,0.30,0.45,0.12
+
 ⚖️ Ethical Considerations
+
 No personal or patient-identifiable data is stored
+
 Dataset used is public, anonymized, and widely accepted
+
 The system is not a diagnostic substitute
+
 Designed strictly for awareness and decision support
+
 🔮 Future Scope
+
 Integration with medical imaging pipelines
+
 Model explainability (SHAP / LIME)
+
 Mobile application support
+
 Secure cloud deployment
+
 Clinical validation with real-world data
+
 🏁 Conclusion
+
 This project demonstrates how AI-driven models can assist in early cancer risk screening, enhance health literacy, and support clinical decision-making while maintaining ethical and professional standards.
